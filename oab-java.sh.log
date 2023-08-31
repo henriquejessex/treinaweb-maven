@@ -1,0 +1,54 @@
+ [x] Installing Java build requirements   's retcode: 0
+success
+ [x] Making build directories   55753's retcode: 0
+success
+ [x] Mirroring https://github.com/rraptorr/oracle-java7   Cloning into bare repository 'oracle-java7.git'...
+55761's retcode: 0
+success
+ [x] Removing local clones of oracle-java7   55781's retcode: 0
+success
+ [x] Cloning oracle-java7 with v7.80-1   Cloning into 'src'...
+done.
+Note: switching to '30cdd9d6af2dba8b43cd8227cd449907740947cb'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+55787's retcode: 0
+success
+ [x] Getting releases download page   --2023-08-31 16:31:33--  http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+Resolving www.oracle.com (www.oracle.com)... 2600:1419:d000:58c::a15, 2600:1419:d000:587::a15, 23.45.158.66
+Connecting to www.oracle.com (www.oracle.com)|2600:1419:d000:58c::a15|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html [following]
+--2023-08-31 16:31:33--  https://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+Connecting to www.oracle.com (www.oracle.com)|2600:1419:d000:58c::a15|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.oracle.com/java/technologies/javase/upgrade.html [following]
+--2023-08-31 16:31:34--  https://www.oracle.com/java/technologies/javase/upgrade.html
+Connecting to www.oracle.com (www.oracle.com)|2600:1419:d000:58c::a15|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘/tmp/oab-download.html’
+
+     0K .......... .......... .......... ....                  5,47M=0,006s
+
+2023-08-31 16:31:34 (5,47 MB/s) - ‘/tmp/oab-download.html’ saved [34935]
+
+55810's retcode: 0
+success
+ [x] Downloading jdk-7u80-linux-x64.tar.gz :    http://: Invalid host name.
+55831's retcode: 1
+failed
